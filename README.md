@@ -7,7 +7,7 @@ Asus N56VJ Fn key scripts (Archlinux)
 2. map script to the key
 
 To get keycode:
-$ xev | grep -A2 --line-buffered '^KeyRelease' | sed -n '/keycode /s/^.*keycode \([0-9]*\).* (.*, \(.*\)).*$/\1 \2/p'
+<code>$ xev | grep -A2 --line-buffered '^KeyRelease' | sed -n '/keycode /s/^.*keycode \([0-9]*\).* (.*, \(.*\)).*$/\1 \2/p'</code>
 
 
 
