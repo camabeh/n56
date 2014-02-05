@@ -1,6 +1,6 @@
 #!/bin/bash
 case "$1" in
-    ''|*[!0-9]*) exit 1 ;;
+    ''|*[!0-9]*) echo 'Usage: volume_down 5, where 5 is step'; exit 1 ;;
         *)  ;;
 esac
 
